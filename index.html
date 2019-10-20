@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>L200170112</title>
+</head>
+
+<body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" a href="#profil">PROFIL</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link active" a href="#ddl">DDL<span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link active" a href="#dml">DML<span class="sr-only">(current)</span></a>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="jumbotron jumbotron-fluid text-center text-light">
+        <a name='profil'>
+            <img src="image/gambar1.jpg" class="card-img">
+            <div class="card-img-overlay">
+                <br><br><br><br><br>
+                <img src="image/hafid.jpg" width="25%" class="rounded-circle img-thumbnail">
+                <h1 class="display-4">Hafid Ihsan Majid</h1>
+                <p class="lead">L200170112 | B</p>
+        </a>
+    </div>
+
+
+
+    <div class="text-center text-light bg-dark">
+        <div class="row mb-4">
+            <div class="col">
+                <h1><b>Tugas</b></h1>
+
+            </div>
+
+        </div>
+        <div class="row">
+            <a name='ddl'>
+                <div class="col text-justify pl-5">
+                    <h2>DDL(Data Definition Language)</h2>
+                    <p>1.<b>Create table</b> = Digunakan untuk membuat tabel baru.<br>
+                        Contoh syntax = CREATE TABLE [schema, ] table
+                        ( column datatype [DEFAULT expr][,...]);</p>
+                    <P>2.<b>Drop table</b> = Digunakan untuk menghapus tabel.<br>
+                        Contoh syntax = Drop tabel mahasiswa;</P>
+                    <p>3.<b>Alter</b> = Digunakan untuk mengubah struktur tabel.<br>
+                        Contoh syntax = Alter TABLE Buku ADD Penulis Varchar(100);
+
+                        Alter TABLE Buku Drop Column Judul_buku;</p>
+            </a>
+        </div>
+        <a name='dml'>
+            <div class="col text-justify pr-5">
+                <h2>DML(Data Manipulation Language) </h2>
+                <p>1.<b>Insert table</b> = Digunakan untuk menambahkan/memasukan data ke dalam tabel.<br>
+                    Contoh syntax = INSERT INTO nama_tabel(field ke-1, ….. field ke-n)
+                    VALUES(nilai_field_ke-1, …. nilai_field_ke-n)</p>
+                <p>2.<b>Update</b> = Mengubah data yang akan dirubah.<br>
+                    Contoh syntax = UPDATE nama_tabel
+                    SET nama_field = data_baru
+                    WHERE nama_field = data_lama; </p>
+                <p>3.<b>Delete</b> = Digunakan untuk menghapus data<br>
+                    Contoh Syntax = DELETE FROM nama_tabel
+                    [ WHERE kondisi];</p>
+                <p>4.<b>Select tabel</b> = Digunakan untuk menampilkan tabel.<br>
+                    Contoh syntax = Select * from [nama tabel];</p>
+            </div>
+        </a>
+    </div>
+    </div>
+    </div>
+    <footer class="bg-dark text-white">
+        <div class="container">
+            <div class="row text-center pt-2">
+                <div class="col">
+                    <p>L200170112(tugas smbd)2019</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
